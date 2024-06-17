@@ -548,10 +548,6 @@ video {
   position: absolute;
 }
 
-.-inset-10 {
-  inset: -2.5rem;
-}
-
 .left-32 {
   left: 8rem;
 }
@@ -564,8 +560,8 @@ video {
   top: 5rem;
 }
 
-.top-56 {
-  top: 14rem;
+.top-44 {
+  top: 11rem;
 }
 
 .top-64 {
@@ -574,14 +570,6 @@ video {
 
 .top-96 {
   top: 24rem;
-}
-
-.top-40 {
-  top: 10rem;
-}
-
-.top-44 {
-  top: 11rem;
 }
 
 .z-50 {
@@ -622,11 +610,6 @@ video {
   margin-bottom: 1rem;
 }
 
-.-mx-10 {
-  margin-left: -2.5rem;
-  margin-right: -2.5rem;
-}
-
 .mb-6 {
   margin-bottom: 1.5rem;
 }
@@ -645,10 +628,6 @@ video {
 
 .flex {
   display: flex;
-}
-
-.grid {
-  display: grid;
 }
 
 .h-12 {
@@ -679,28 +658,12 @@ video {
   width: 20rem;
 }
 
-.grid-cols-3 {
-  grid-template-columns: repeat(3, minmax(0, 1fr));
-}
-
-.grid-rows-3 {
-  grid-template-rows: repeat(3, minmax(0, 1fr));
-}
-
-.flex-col {
-  flex-direction: column;
-}
-
 .content-center {
   align-content: center;
 }
 
 .justify-between {
   justify-content: space-between;
-}
-
-.gap-4 {
-  gap: 1rem;
 }
 
 .rounded-3xl {
@@ -717,64 +680,9 @@ video {
   background-color: rgb(31 41 55 / var(--tw-bg-opacity));
 }
 
-.bg-red-200 {
-  --tw-bg-opacity: 1;
-  background-color: rgb(254 202 202 / var(--tw-bg-opacity));
-}
-
-.bg-red-100 {
-  --tw-bg-opacity: 1;
-  background-color: rgb(254 226 226 / var(--tw-bg-opacity));
-}
-
-.px-16 {
-  padding-left: 4rem;
-  padding-right: 4rem;
-}
-
 .px-20 {
   padding-left: 5rem;
   padding-right: 5rem;
-}
-
-.px-28 {
-  padding-left: 7rem;
-  padding-right: 7rem;
-}
-
-.px-32 {
-  padding-left: 8rem;
-  padding-right: 8rem;
-}
-
-.px-36 {
-  padding-left: 9rem;
-  padding-right: 9rem;
-}
-
-.px-48 {
-  padding-left: 12rem;
-  padding-right: 12rem;
-}
-
-.px-52 {
-  padding-left: 13rem;
-  padding-right: 13rem;
-}
-
-.px-56 {
-  padding-left: 14rem;
-  padding-right: 14rem;
-}
-
-.px-24 {
-  padding-left: 6rem;
-  padding-right: 6rem;
-}
-
-.px-40 {
-  padding-left: 10rem;
-  padding-right: 10rem;
 }
 
 .px-44 {
@@ -784,18 +692,6 @@ video {
 
 .text-center {
   text-align: center;
-}
-
-.text-start {
-  text-align: start;
-}
-
-.align-middle {
-  vertical-align: middle;
-}
-
-.align-bottom {
-  vertical-align: bottom;
 }
 
 .font-mono {
